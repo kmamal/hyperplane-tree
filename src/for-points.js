@@ -187,6 +187,17 @@ const defineFor = memoize((V) => {
 
 			return solutions
 		}
+
+		static fromPoints = (points, maxBinSize) => {
+			const tree = new HyperplaneTree(maxBinSize)
+
+			// TODO: optimize
+			for (const point of points) {
+				tree.insert(point)
+			}
+
+			return tree
+		}
 	}
 
 	return { HyperplaneTree }
