@@ -17,15 +17,9 @@
     "update-exports": "node ./scripts/update-exports.mjs"
   },
   "dependencies": {
-    "@kmamal/heap": "^0.0.9",
-    "@kmamal/linear-algebra": "^0.0.6",
     "@kmamal/util": "^0.2.4"
   },
   "devDependencies": {
-    "@kmamal/key-commands": "^0.0.8",
-    "@kmamal/numbers": "^0.0.4",
-    "@kmamal/sdl": "^0.10.4",
-    "@kmamal/testing": "^0.0.30",
-    "canvas": "^2.11.2"
+    "@kmamal/testing": "^0.0.30"
   }
 }
